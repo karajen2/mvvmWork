@@ -1,0 +1,4 @@
+c:\users\karthik\documents\visual studio 2012\Learning\basicMvvm\AppModel\bin\Debug\AppModel.dll
+c:\users\karthik\documents\visual studio 2012\Learning\basicMvvm\AppModel\bin\Debug\AppModel.pdb
+c:\users\karthik\documents\visual studio 2012\Learning\basicMvvm\AppModel\obj\Debug\AppModel.dll
+c:\users\karthik\documents\visual studio 2012\Learning\basicMvvm\AppModel\obj\Debug\AppModel.pdb

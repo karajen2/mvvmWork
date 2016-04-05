@@ -1,0 +1,32 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Express 2012 for Windows Desktop
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AppView", "AppView\AppView.csproj", "{D3516A77-AA13-47E6-9B86-5CCA3F9C675F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AppModel", "AppModel\AppModel.csproj", "{D7698C02-2C37-4E48-882F-A85830C9F3A3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AppViewModel", "AppViewModel\AppViewModel.csproj", "{DDFD6EEB-A45B-4A91-8CE2-D1905B081917}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{D3516A77-AA13-47E6-9B86-5CCA3F9C675F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D3516A77-AA13-47E6-9B86-5CCA3F9C675F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D3516A77-AA13-47E6-9B86-5CCA3F9C675F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D3516A77-AA13-47E6-9B86-5CCA3F9C675F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D7698C02-2C37-4E48-882F-A85830C9F3A3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D7698C02-2C37-4E48-882F-A85830C9F3A3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D7698C02-2C37-4E48-882F-A85830C9F3A3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D7698C02-2C37-4E48-882F-A85830C9F3A3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DDFD6EEB-A45B-4A91-8CE2-D1905B081917}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DDFD6EEB-A45B-4A91-8CE2-D1905B081917}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DDFD6EEB-A45B-4A91-8CE2-D1905B081917}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DDFD6EEB-A45B-4A91-8CE2-D1905B081917}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

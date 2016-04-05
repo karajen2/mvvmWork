@@ -1,0 +1,45 @@
+﻿<Window x:Class="AppView.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:avm="clr-namespace:AppViewModel;assembly=AppViewModel"
+        Title="MainWindow" Height="350" Width="525">
+    <Window.Resources>
+        <avm:AppViewModel x:Key="mySource"></avm:AppViewModel>
+    </Window.Resources>
+    <Grid>
+        <TabControl>
+            <TabItem Header="Find People" Background="LightGray">
+                <Grid>
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="200"/>
+                        <ColumnDefinition/>
+                    </Grid.ColumnDefinitions>
+                    <Grid.RowDefinitions>
+                        <RowDefinition Height="50"/>
+                        <RowDefinition/>
+                    </Grid.RowDefinitions>
+                    
+                    <ComboBox Grid.Row="0" 
+                              Grid.RowSpan="1" 
+                              Grid.Column="0" 
+                              Margin="10"
+                              DataContext="{Binding Source={StaticResource mySource}}"
+                              ItemsSource="{Binding Path=ListOfArea }"
+                              SelectedItem="{Binding Path=SelectedArea}"
+                              Grid.ColumnSpan="1">
+                    </ComboBox>
+                    
+                    <DataGrid Grid.Row="1" 
+                              Grid.ColumnSpan="2" 
+                              Grid.RowSpan="1" 
+                              CanUserAddRows="False"
+                              DataContext="{Binding Source={StaticResource mySource}}"
+                              ItemsSource="{Binding Path=LocalListOfPeople}"
+                              Margin="10">
+                        
+                    </DataGrid>
+                </Grid>
+            </TabItem>
+        </TabControl>
+    </Grid>
+</Window>

@@ -1,0 +1,7 @@
+c:\users\karthik\documents\visual studio 2012\Learning\basicMvvm\AppViewModel\bin\Debug\AppViewModel.dll
+c:\users\karthik\documents\visual studio 2012\Learning\basicMvvm\AppViewModel\bin\Debug\AppViewModel.pdb
+c:\users\karthik\documents\visual studio 2012\Learning\basicMvvm\AppViewModel\bin\Debug\AppModel.dll
+c:\users\karthik\documents\visual studio 2012\Learning\basicMvvm\AppViewModel\bin\Debug\AppModel.pdb
+c:\users\karthik\documents\visual studio 2012\Learning\basicMvvm\AppViewModel\obj\Debug\AppViewModel.csprojResolveAssemblyReference.cache
+c:\users\karthik\documents\visual studio 2012\Learning\basicMvvm\AppViewModel\obj\Debug\AppViewModel.dll
+c:\users\karthik\documents\visual studio 2012\Learning\basicMvvm\AppViewModel\obj\Debug\AppViewModel.pdb
